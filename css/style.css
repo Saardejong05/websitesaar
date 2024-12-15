@@ -194,28 +194,38 @@ ul {
   height: auto;
 }
 
-.chiara {
-  display: flex;
-  flex-direction: row;
-  background-color: var(--color-lightpink);
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 20px;
+.chiara-en-saar p {
+  font-size: 20px;
+  text-align: left;
+  color: var(--text-color);
+  margin-right: 700px;
+  margin-left:70px;
 }
 
-.chiara h4 {
-  display: flex;
-  justify-content: flex-start  ;
+.chiara-en-saar img {
+  border-color: var(--color-black);
+  border-radius: 10px;
+  border-style: solid;
+  width: 300px;
+  height: auto;
   margin-right: 70px;
   margin-left: 70px;
 }
-.chiara p {
-display: flex;
-justify-content: flex-start  ;
-margin-top: 150px;
-margin-left: 40px;
-margin-right: 100px;
+
+.chiara-en-saar {
+  margin-right: 300px;  
 }
+
+.chiara-en-saar hr {
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-style: double;
+  border-color: var(--color-darkpink);
+}
+
+
 
 
 
