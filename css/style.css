@@ -20,14 +20,27 @@ h1 {
     color: var(--text-color)
 }
 
-ul {
+header {
     list-style: none;
     margin: 0px;
     padding: 10px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
     background-color: var(--color-header);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header img {
+    display: flex;
+    width: 120px;
+    height: auto;
+  }
+
+  ul  {
+    list-style-type: none;
+    float: left;
+    display: flex;
+    flex-direction: row;
   }
   
   li a {
@@ -42,9 +55,26 @@ ul {
     background-color: var(--color-lightpink);
   }
 
-.laatste-aflevering h5 {
-  color: var(--color-black);
+  .button-logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: var(--color-lightpink);
+    margin-left: 1400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:  30px; 
+    border-radius: 10px;
+  }
+
+  .button-logo :hover {
+    transform: scale(1.1);
+  }
+  
+.laatste-aflevering h1 {
+  color: var(--color-white);
   margin-left: 40px;
+  font-size: 15px;
 }
 
 .laatste-aflevering .button-logo {
@@ -106,9 +136,7 @@ ul {
   display: inline-block;
 }
 
-
-
-.seizoen-1 h2 {
+.seizoen-1 h1 {
   font-size: 30px;
   color: #8C2E36;
   text-align: center;
@@ -120,7 +148,7 @@ ul {
   color: var(--text-color)
 }
 
-.afleveringen h3 {
+.afleveringen h2 {
   font-size: 30px;
   color: var(--color-darkpink)
 }
@@ -155,13 +183,6 @@ ul {
 .trein {
   width: 500px;
   height: auto;
-}
-
-
-.hoelang {
-  width: 600px;
-  height: auto;
-  margin-left: 40px;
 }
 
 .overonspagina h3 {
@@ -225,22 +246,44 @@ ul {
   border-color: var(--color-darkpink);
 }
 
+.playbutton img {
+  width: 500px;
+  height: auto;
+  margin-left: 70px;
+}
 
+footer h4 {
+  font-size: 20px;
+  color: var(--color-darkpink);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
+footer {
+  background-color: var(--color-lightpink);
+  display: flex;
+  flex-direction: column;
+}
 
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 5px;
+}
 
+.socials img {
+  width: 50px;
+  height: auto;
+  margin-left: 70px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+footer p {
+  font-size: 20px;
+  text-align: center;
+  color: var(--text-color);
+  margin-right: 70px;
+  margin-left: 70px;
+}
